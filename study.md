@@ -38,7 +38,13 @@ As it makes sense to you please write the following in JSON format:
 - Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+{
+  "name"         : "Jason",
+  "cat"          : "Mr. Kitty",
+  "roommates"    : ["Dave", "Miller"],
+  "loves"        : ["Red Sox", "Patriots", "Bruins"],
+  "has_lived_at" : ["123 Fake street", "2 Muchinfo Road"]
+}
 ```
 
 ...I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +52,14 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+{
+  "name"         : "Jason",
+  "cat"          : "Mr. Kitty",
+  "roommates"    : ["Dave", "Miller"],
+  "loves"        : ["Red Sox", "Patriots", "Bruins"],
+  "has_lived_at" : ["123 Fake street", "2 Muchinfo Road"]
+  "pet_gold_fish": ["Bob", "Mr. MagicNibbles"]
+}
 ```
 
 ## JSON Methods
@@ -54,7 +67,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+No because "JSON cannot have methods, since it is a data exchange format."
 ```
 
 ## JSON Comments
@@ -62,5 +75,6 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+No because it is a string, doing so or treating JSON as a javascript object literal
+can create hard-to-debug errors.
 ```
